@@ -41,7 +41,7 @@ export function Profile({ biography, expertise }: ProfileProps) {
                 <Badge
                   key={index}
                   variant="secondary"
-                  className="text-sm px-3 py-1"
+                  className="text-sm px-3 py-1 text-white"
                 >
                   {skill}
                 </Badge>
