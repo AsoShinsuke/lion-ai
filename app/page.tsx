@@ -8,8 +8,34 @@ export default function Home() {
   const currentYear = new Date().getFullYear();
   const copyright = `© ${currentYear} ${profileData.name}. All rights reserved.`;
 
+  // JSON-LD構造化データ（Personスキーマ）
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: profileData.name,
+    jobTitle: profileData.title,
+    worksFor: {
+      "@type": "Organization",
+      name: profileData.company.name,
+      url: profileData.company.url,
+    },
+    image: `https://iwashita-naoto.github.io${profileData.profileImage}`,
+    url: "https://iwashita-naoto.github.io/",
+    sameAs: [
+      profileData.company.url,
+      ...profileData.relatedLinks.map(link => link.url),
+    ],
+    description: profileData.biography.join(" "),
+    knowsAbout: profileData.expertise,
+  };
+
   return (
     <>
+      {/* JSON-LD構造化データ */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header
         name={profileData.name}
         title={profileData.title}
