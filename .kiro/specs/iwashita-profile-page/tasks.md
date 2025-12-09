@@ -18,7 +18,7 @@
   - lib/utils.tsにユーティリティ関数を実装
   - _要件: 5.1, 5.2, 5.3_
 
-- [ ] 4. Headerコンポーネントの実装
+- [x] 4. Headerコンポーネントの実装
   - components/Header.tsxを作成
   - プロフィール画像、氏名、役職、会社名を表示
   - Shadcn UI AvatarとCardを使用
