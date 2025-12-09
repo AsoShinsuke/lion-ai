@@ -263,16 +263,16 @@ export const profileData: ProfileData = {
     // 実際のコンテンツは実装時に追加
   ],
   relatedLinks: [
-    {
-      name: "Lion AI",
-      url: "https://www.lion-ai.co.jp/",
-      description: "AI技術の研究開発における協業パートナー",
-      isExternal: true
-    },
-    {
+   {
       name: "WONQ株式会社",
       url: "https://www.wonq-xr.jp/",
       description: "会社公式サイト",
+      isExternal: true
+    },
+    {
+      name: "Lion AI",
+      url: "https://www.lion-ai.co.jp/",
+      description: "WONQ株式会社のAI事業です。",
       isExternal: true
     }
   ]

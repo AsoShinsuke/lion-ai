@@ -13,7 +13,7 @@ export const profileData: ProfileData = {
   biography: [
     "WONQ株式会社の代表取締役として、XR技術とAI技術の融合による新しい価値創造に取り組んでいます。",
     "テクノロジーを活用した革新的なソリューションの開発を通じて、社会課題の解決に貢献することを目指しています。",
-    "AI技術の研究開発においては、Lion AIとの協業を通じて、最先端の技術開発を推進しています。"
+    "AIにおいては最先端の技術を学習し研修を通して、受講者のスキル向上に貢献しています。"
   ],
   expertise: [
     "XR技術",
@@ -24,16 +24,16 @@ export const profileData: ProfileData = {
   ],
   relatedLinks: [
     {
-      name: "Lion AI",
-      url: "https://www.lion-ai.co.jp/",
-      description: "AI技術の研究開発における協業パートナー",
-      isExternal: true
-    },
-    {
       name: "WONQ株式会社",
       url: "https://www.wonq-xr.jp/",
       description: "会社公式サイト",
       isExternal: true
-    }
+    },
+    {
+      name: "Lion AI",
+      url: "https://www.lion-ai.co.jp/",
+      description: "WONQ株式会社のAI事業",
+      isExternal: true
+    } 
   ]
 };
