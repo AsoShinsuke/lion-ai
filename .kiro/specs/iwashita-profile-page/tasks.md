@@ -6,7 +6,7 @@
   - プロジェクト構造（app/、components/、types/、data/、lib/）を作成
   - _要件: 3.1_
 
-- [ ] 2. TypeScript型定義とデータモデルの実装
+- [x] 2. TypeScript型定義とデータモデルの実装
   - types/profile.tsに型定義を作成（CompanyInfo、ExternalLink、ProfileData等）
   - data/profileData.tsにプロフィールデータを実装
   - Lion AIとWONQのリンク情報を含める
