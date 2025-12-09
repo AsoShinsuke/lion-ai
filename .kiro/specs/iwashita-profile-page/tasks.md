@@ -12,7 +12,7 @@
   - Lion AIとWONQのリンク情報を含める
   - _要件: 1.1, 1.2, 1.4, 1.5, 2.1, 6.1_
 
-- [ ] 3. Shadcn UIのセットアップと基本コンポーネントのインストール
+- [x] 3. Shadcn UIのセットアップと基本コンポーネントのインストール
   - Shadcn UIを初期化（npx shadcn-ui@latest init）
   - 必要なコンポーネントをインストール（Avatar、Card、Button、Badge、Separator）
   - lib/utils.tsにユーティリティ関数を実装
